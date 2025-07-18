@@ -4,7 +4,8 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import { Button } from './components/ui/button'
 
-function App() {
+export const App = () => {
+
   const [count, setCount] = useState(0)
 
   return (
@@ -32,5 +33,3 @@ function App() {
     </>
   )
 }
-
-export default App
